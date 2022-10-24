@@ -100,7 +100,7 @@ If you are not sure, use the first download.
 - [Intel/AMD - 32 Bit](https://downloads.rclone.org/rclone-current-linux-386.zip)
 - [ARM - 64 Bit](https://downloads.rclone.org/rclone-current-linux-arm64.zip)
 
-Once downloaded, open the file in Explorer and extract `rclone.exe`.
+Once downloaded, open the file in Explorer and extract **rclone.exe**.
 Rclone.exe is a portable binary and you can place it anywhere that is convenient
 to call from CMD or powershell.
 
