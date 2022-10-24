@@ -1,11 +1,10 @@
-# Working with Rclone and OSN
+# Installing Rclone
 [Rclone](https://rclone.org/) is a CLI program to manage files on cloud storage. 
 It's similar to rsync but provides many additional features including support for over 
 [40 cloud storage products](https://rclone.org/#providers).
 
-## Install Rclone
-### macOS installation
-#### Install Rclone via Homebrew
+## macOS installation
+### Install Rclone via Homebrew
 
 [Homebrew](https://brew.sh/) is a 3rd party package manager for macOS that can be used 
 to easily install many FOSS packages. To install Homebrew, please see the documentation
@@ -20,7 +19,7 @@ Once Homebrew is installed, install rclone by running the following command:
 $ brew install rclone
 ```
 
-#### Install Rclone without Homebrew
+### Install Rclone without Homebrew
 Alternatively, you can install rclone for macOS by running the rclone-provided install.sh 
 script which will download the relevant precompiled binary.
 
@@ -28,7 +27,7 @@ script which will download the relevant precompiled binary.
 $ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 ```
 
-### Linux installation
+## Linux installation
 
 Installation of rclone for Linux can be done using your Linux distribution specific
 package manager, or by using the rclone-provided binary installer.
@@ -36,7 +35,7 @@ package manager, or by using the rclone-provided binary installer.
 Note, if you are on a system where you do not have administrative privledges, see the
 last section of the Linux installation documentation on non-privledged installation.
 
-#### Install Rclone using Linux package managers (requires root access)
+### Install Rclone using Linux package managers (requires root access)
 For RedHat or RedHat clone distros:
 
 ```
@@ -53,7 +52,7 @@ For Arch-based distros:
 $ sudo pacman -S rclone
 ```
 
-#### Install Rclone binary directly (requires root access)
+### Install Rclone binary directly (requires root access)
   Alternatively, you can install rclone for Linux by running the rclone-provided install.sh
   script which will download the relevant precompiled binary.
   
@@ -61,7 +60,7 @@ $ sudo pacman -S rclone
   $ sudo -v ; curl https://rclone.org/install.sh | sudo bash
   ```
  
-#### Non-privledged installation of Rclone on Linux
+### Non-privledged installation of Rclone on Linux
 
 If you are on an HPC system, first check to see if rclone is already installed.
 For instance, if you are on a module-based system, you might search for the rclone module.
@@ -92,7 +91,7 @@ $ echo export PATH=\$PATH:$HOME/bin >> ~/.bashrc
 
 *Note: The export and echo commands are for bash and other bourne-compatible shells.*
 
-### Windows installation
+## Windows installation
 
 For Windows installtion, download the correct binary for your system. 
 If you are not sure, use the first download.
