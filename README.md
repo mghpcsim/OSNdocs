@@ -1,7 +1,7 @@
 # OSNdocs
 
 Table of Contents
-- [OSN](Intro.md)
+- [OSN](OSN.md)
 - [rclone](rclone.md)
 - [aws-cli](aws-cli.md)
 - [Cyberduck](cyberduck.md)
