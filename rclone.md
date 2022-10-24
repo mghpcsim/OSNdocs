@@ -90,7 +90,18 @@ $ export PATH=$PATH:$HOME/bin
 $ echo export PATH=\$PATH:$HOME/bin >> ~/.bashrc
 ```
 
-*Note:* The export and echo commands are for bash and other bourne-compatible shells.
+*Note: The export and echo commands are for bash and other bourne-compatible shells.*
 
+### Windows installation
+
+For Windows installtion, download the correct binary for your system. 
+If you are not sure, use the first download.
+- [Intel/AMD - 64 Bit](https://downloads.rclone.org/rclone-current-linux-amd64.zip)
+- [Intel/AMD - 32 Bit](https://downloads.rclone.org/rclone-current-linux-386.zip)
+- [ARM - 64 Bit](https://downloads.rclone.org/rclone-current-linux-arm64.zip)
+
+Once downloaded, open the file in Explorer and extract `rclone.exe`.
+Rclone.exe is a portable binary and you can place it anywhere that is convenient
+to call from CMD or powershell.
 
 
